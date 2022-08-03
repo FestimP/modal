@@ -1,8 +1,7 @@
 import "./backdrop.css";
 function Backdrop(props) {
 return (
-<div className={props.className}>
-</div>
+<div className="coco" onClick={props.onCancel}/>
 )
  }  
   export default Backdrop;

@@ -99,7 +99,7 @@ margin-top: 2.4rem;
         background-color: blue;
         border: none;
         border-radius: 4px;
-        
+        font-size: 1rem;
 }
 .btn-save {
     margin-left: 2.4rem;
@@ -118,4 +118,29 @@ margin-top: 2.4rem;
 .btn-cancel:hover {
     background: blue;
     color: white;
+}
+@media screen and (width < 600px) {
+    *{
+        font-size: 50%;
+    }
+}
+@media screen and (height  > 1000px) {
+    .card .coco {
+        height: 120rem;
+    }
+}
+@media screen and (width < 300px) {
+    .main,.main-l {
+        justify-content: center;
+    }
+    .upper-col p {
+        font-size: 1.2rem;
+      }
+      .col {
+        gap:1.2rem;
+
+      }
+      .col p {
+        font-size: 1rem;
+      }
 }
